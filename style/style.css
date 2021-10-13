@@ -432,7 +432,7 @@ p {
     transition: 0.4s
 }
 .slider {
-    background-image: url('./image/slide-01.jpg');
+    background-image: url('image/slide-01.jpg');
     background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -444,7 +444,7 @@ p {
 }
 
 .slider2 {
-    background-image: url('./image/slide-02.jpg');
+    background-image: url('image/slide-02.jpg');
     background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
