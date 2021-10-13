@@ -31,7 +31,7 @@ p {
     position:relative;
 }
 .tour__background {
-    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/11/para-07.jpg');
+    background-image: url('../image/package-01.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,7 +243,7 @@ p {
     color:var(--color-gray);
 }
 .tour__photo {
-    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/03/destination-3-540x712.jpg');
+    background-image: url('../image/package/image\ 5.jpg');
     width:100%;
     height: 500px;
     object-fit: cover;
