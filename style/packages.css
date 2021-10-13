@@ -28,7 +28,7 @@ p {
     line-height: 27px;
 }
 .packages__search {
-    background-image: url('/image/para-06.jpg');
+    background-image: url('../image/para-06.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
