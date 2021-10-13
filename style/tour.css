@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection { background: transparent; }
+
+:root {
+    --color-white: #fff;
+    --color-main: #f3a46b;
+    --color-gray: #333;
+    --color-header: #727475;
+    --color-input: #4d4e4e;
+}
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:#333;
+}
+
+p {
+    line-height: 27px;
+}
+.header {
+    position:relative;
+}
+.tour__background {
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/11/para-07.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vmin;
+    position: relative;
+    margin-bottom: 30px;
+}
+.tour__content {
+    position:absolute;
+    bottom: 10%;
+    width:100%;
+}
+.tour__title {
+    color:var(--color-white);
+    font-size: 20px;
+    font-weight: bold;
+}
+.tour__border {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+}
+.tour__location {
+    margin-right: 30px;
+}
+.fa-map-marker-alt,
+.fa-clock {
+    margin-right: 5px;
+}
+.tour__container {
+    display: flex;
+}
+.tour__left {
+    color: var(--color-gray);
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.tour__left-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tour__icon {
+    display: flex;
+    align-items: center;
+}
+.tour__icon-image {
+    width: 40px;
+    margin-right: 20px;
+}
+.tour__icon-title {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.tour__span {
+    padding: 5px 8px;
+    background-color: rgb(243, 116, 116);
+    color:var(--color-white);
+    font-size: 12px;
+    border-radius: 20px;
+}
+.tour__icon-description {
+    color: rgb(151, 148, 148);
+}
+.tour__image-container {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.tour__image {
+    width: 100%;
+}
+.tour__right {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.tour__right-header {
+    width:100%;
+    height: 100px;
+    background-color: rgb(252, 111, 111);
+    display: flex;
+}
+.tour__right-number {
+    margin: auto;
+    font-size: 25px;
+    color:var(--color-white);
+}
+.tour__right-input {
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.tour__input {
+    text-align: center;
+    margin-top: 50px;
+    border:none;
+    outline:none;
+    color:var(--color-header);
+    font-size: 16px;
+    width: 50%;
+}
+.input__name {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.input__name::placeholder {
+    color:red
+}
+.tour__textarea {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    height: 150px;
+    color: var(--color-header);
+}
+.tour__btn {
+    margin-top: 100px;
+}   
+.tour__input--btn {
+    position:absolute;
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(252, 111, 111);
+    border: none;
+    border-radius:20px;
+    color:var(--color-white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.tour__input--btn:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.tour__description {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tour__description--border {
+    width: 100%;
+}
+.tour__description--selection {
+    display:flex;
+    width: 100%;
+}
+.tour__description--link {
+    margin-right: 30px;
+    color: var(--color-header);
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.tour__description--link-block {
+    background-color: rgb(252, 111, 111);
+    border-radius: 20px;
+    color:var(--color-white);
+    transition: 0.5s;
+}
+.tour__block {
+    background-color: rgb(252, 111, 111);
+    border-radius: 20px;
+    color:var(--color-white);
+    transition: 0.5s;
+}
+
+.tour__experience {
+    margin-top: 50px;
+    color: rgb(153, 152, 152);
+}
+.tour__experience--title {
+    color: var(--color-gray);
+    margin-bottom: 10px;
+}
+.tour__discount {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: var(--color-gray);
+    font-weight: 400;
+}
+.tour__discount--left p {
+    margin-top: 50px;
+}
+#map {
+    margin-top: 30px;
+    color: var(--color-gray);
+}
+.map__id {
+    width: 100%;
+    margin-top: 30px;
+}
+.tour__discount--right p{
+    margin-top: 50px;
+    color:rgb(153, 152, 152);
+}
+.tour__photo--container {
+    margin-top: 40px;
+    color:var(--color-gray);
+}
+.tour__photo {
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/03/destination-3-540x712.jpg');
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    position: relative;
+}
+.tour__photo--after {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: var(--color-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:var(--color-white);
+    transition: 0.7s;
+    display: none;
+}
+.tour__photo:hover .tour__photo--after {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:var(--color-white);
+    animation: hoverIn 0.7s ease-in-out;
+}
+
+@keyframes hoverIn {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
+.tour__photo--title {
+    margin-bottom: 15px;
+}
+.tour__photo--description {
+    margin-bottom: 15px;
+}
+.tour__photo--btn {
+    padding: 15px 30px;
+    color:var(--color-main);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.tour__faq {
+    margin-top: 40px;
+}
+.tour__faq--title {
+    margin-bottom: 20px;
+}
+.tour__faq--description {
+    color:rgb(153, 152, 152);
+}
+
+.tour__faq--container {
+    margin-top: 40px;
+}
+.tour__faq--container--border {
+    margin-bottom: 30px;
+}
+.tour__faq--icon {
+    display:flex;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.fa-minus {
+    display: none;
+    padding: 5px 5px;
+    background-color: rgb(247, 105, 105);
+    color: var(--color-white);
+}
+.fa-minus--block {
+    display: block;
+    transition: 0.5s;
+}
+.fa-plus {
+    padding: 5px 5px;
+    background-color: rgb(247, 105, 105);
+    color: var(--color-white);
+}
+.fa-plus--block {
+    display: none;
+    transition: 0.5s;
+}
+
+.tour__faq--block {
+    margin-top: 20px;
+    padding: 0px 37px;
+    color:rgb(153, 152, 152);
+    transition: 0.5s;
+    display: none;
+
+}
+.tour__sale--title {
+    text-transform: uppercase;
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color:var(--color-header)
+}
+.tour__sale--title h1 {
+    color:var(--color-gray);
+
+}
+
+
+
+.div {
+    height: 1000px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .tour__container {
+        display: block;
+    }
+    .tour__left {
+        padding: 0;
+    }
+    .tour__left {
+        margin-bottom: 20px;
+    }
+    .tour__image {
+        width:100%;
+    }
+    .tour__description--selection {
+        display: block;
+        flex-direction: column;
+    }
+  .tour__sale--title {
+      margin-top: 250px;
+  }
+}
+@media (max-width: 767px) {
+    .tour__title {
+        padding: 0 20px;
+        font-size: 16px;
+    }   
+    .tour__left {
+        padding: 0;
+    }
+    .tour__container {
+        display: block;
+        padding: 0px 20px;
+    }
+    .tour__left {
+        margin-bottom: 20px;
+    }
+    .tour__image {
+        width:100%;
+    }
+    .tour__left-icon {
+        display:block;
+
+    }
+    .tour__icon {
+        margin-bottom: 30px;
+    }
+    .tour__description--selection {
+        flex-direction: column;
+        
+    }
+    .tour__sale--title {
+        margin-top: 200px;
+    }
+}

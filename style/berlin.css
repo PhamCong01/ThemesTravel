@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-white: #fff;
+    --color-main: #f3a46b;
+    --color-gray: #333;
+    --color-header: #727475;
+    --color-input: #4d4e4e;
+}
+.tour__span {
+    background-color:var(--color-main);
+}
+.tour__right-header {
+    background-color:var(--color-main);
+    
+}
+.tour__input--btn {
+    background-color:var(--color-main);
+}
+.tour__description--link-block {
+    background-color:var(--color-main);
+    
+}
+.tour__block {
+    
+    background-color:var(--color-main);
+}
+.fa-plus {
+    background-color:var(--color-main);
+    
+}
+.fa-minus {
+    background-color:var(--color-main);
+
+}

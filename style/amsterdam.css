@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tour__span {
+    background-color:#1bbc9b;
+}
+.tour__right-header {
+    background-color:#1bbc9b;
+    
+}
+.tour__input--btn {
+    background-color:#1bbc9b;
+}
+.tour__description--link-block {
+    background-color:#1bbc9b;
+    
+}
+.tour__block {
+    
+    background-color:#1bbc9b;
+}
+.fa-plus {
+    background-color:#1bbc9b;
+    
+}
+.fa-minus {
+    background-color:#1bbc9b;
+
+}

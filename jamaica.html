@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/clouds/2x/airport.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/grid.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bora.css">
+    <title>Bora Bora - City Tours</title>
+</head>
+<body>
+      <!-- header start -->
+      <div class="header">
+        <div class="container grid wide about">
+            <img href="index.html" class="header__logo" src="image/logo-color-1.png" alt="">
+            <ul class="header__list-item">
+                <!-- logo -->
+
+                <li class="list__item"><a href="index.html" class="item">home</a></li>
+                <li class="list__item"><a href="packages.html" class="item item__parent">packages</a>
+                    <ul class="header__list-item-child">
+                        <li class="list__item-child"><a href="" class="item__child">Search 1</a><span class="hot">HOT</span></li>
+                        <li class="list__item-child"><a href="" class="item__child">Search 2</a></li>
+                        <li class="list__item-child icon__list-parent"><a href="tourMap.html" class="item__child">Tour Packages</a>
+                            <i class="fas fa-caret-right icon__header-right"></i>
+                            <ul class="header__icon-list">
+                                <li class="icon__list"><a href="" class="icon__item">Carousel</a><span class="best">BEST</span></li>
+                                <li class="icon__list"><a href="" class="icon__item">Custom Map</a></li>
+                                <li class="icon__list"><a href="" class="icon__item">360* Panorama</a></li>
+                                <li class="icon__list"><a href="" class="icon__item">Default</a></li>
+                            </ul>
+                        </li>
+                        <li class="list__item-child"><a href="" class="item__child">Destination</a></li>
+                        <li class="list__item-child"><a href="" class="item__child">Typology</a></li>
+                    </ul>
+                </li>
+                <li class="list__item icon__header-right-two"><a href="shopTour.html" class="item">shop</a>
+                    <ul class="header__icon-list-two"> 
+                        <li class="icon__list-two"><a href="" class="icon__item-two">Archive</a></li>
+                        <li class="icon__list-two"><a href="" class="icon__item-two">Single Product</a></li>
+                        <li class="icon__list-two"><a href="" class="icon__item-two">Cart</a></li>
+                        <li class="icon__list-two"><a href="" class="icon__item-two">Checkout</a></li>
+                    </ul>
+                </li>
+                <li class="list__item icon__header-right-three"><a href="" class="item">about us</a>
+                    <ul class="header__icon-list-three">  
+                        <li class="icon__list-three"><a href="" class="icon__item-three">About us 1</a><span class="new">new</span></li>
+                        <li class="icon__list-three"><a href="" class="icon__item-three">About us 2</a></li>
+                        <li class="icon__list-three"><a href="" class="icon__item-three">About us 3</a></li>
+                    </ul>
+                </li>
+                <li class="list__item icon__header-right-four"><a href="" class="item">pages</a>
+                    <ul class="header__icon-list-four">  
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Services</a></li>
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Agency Tours</a></li>
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Testimonials</a></li>
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Prices</a></li>
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Promotions</a></li>
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Faq</a></li>
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Coming Soon</a></li>
+                        <li class="icon__list-four"><a href="" class="icon__item-four">Contact</a></li>
+                    </ul>
+                </li>
+                <li class="list__item icon__header-right-five"><a href="" class="item">news</a>
+                    <ul class="header__icon-list-five">
+                        <li class="icon__list-five"><a href="" class="list__item-five">Archive</a></li>
+                        <li class="icon__list-five icon__list-six-block"><a href="" class="list__item-five">Single Post</a>
+                            <i class="fas fa-caret-right icon__header-right-five"></i>
+
+                            <ul class="header__icon-list-six">
+                                <li class="icon__list-six"><a href="" class="icon__item-six">Full Width</a></li>
+                                <li class="icon__list-six"><a href="" class="icon__item-six">Right Sidebar</a></li>
+                                <li class="icon__list-six"><a href="" class="icon__item-six ">left Sidebar</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list__item"><a href="" class="item">contact</a></li>
+                <li class="list__item"><a href="packages.html"><button class="header__btn">BOOK NOW</button></a></li>
+                <i class="fas fa-bars header__icon-bars"></i>
+                <ul class="header__bars">
+                    <i class="fas fa-times icon__exit"></i>
+                    <li class="header__bars-list"><a href="index.html" class="bars__item">HOME</a></li>
+                    <li class="header__bars-list"><a href="packages.html" class="bars__item">PACKAGES </a><i class="fas fa-chevron-right icon__bars-right"></i>
+                        <ul class="header__bars--child">
+                            <li class="header__list--child"><a href="" class="item__bars--child">Search 1 </a><span class="hot">HOT</span></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Search 2</a></li>
+                            <li class="header__list--child"><a href="tourMap.html" class="item__bars--child">Tour Packages</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Destination</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Typology</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__bars-list"><a href="shopTour" class="bars__item">SHOP</i></a><i class="fas fa-chevron-right icon__bars-right"></i>
+                        <ul class="header__bars--child">
+                            <li class="header__list--child"><a href="" class="item__bars--child">Archive</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Single Product</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Cart</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__bars-list"><a href="" class="bars__item">ABOUT US</i></a><i class="fas fa-chevron-right icon__bars-right"></i>
+                        <ul class="header__bars--child">
+                            <li class="header__list--child"><a href="" class="item__bars--child">About us 1</a><span class="new">new</span></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">About us 2</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">About us 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__bars-list"><a href="" class="bars__item">PAGES</i></a><i class="fas fa-chevron-right icon__bars-right"></i>
+                        <ul class="header__bars--child">
+                            <li class="header__list--child"><a href="" class="item__bars--child">Services</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Agency Tours</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Testimonials</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Prices</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Promotions</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Faq</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Coming Soon</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__bars-list "><a href="" class="bars__item">NEWS</i></a><i class="fas fa-chevron-right icon__bars-right "></i>
+                        <ul class="header__bars--child">
+                            <li class="header__list--child"><a href="" class="item__bars--child">Archive</a></li>
+                            <li class="header__list--child"><a href="" class="item__bars--child">Single Post</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__bars-list"><a href="" class="bars__item">CONTACT</a></li>
+                    <li class="header__bars-list"><a href="packages.html" class="bars__item"><button class="btn__bars">BOOK NOW</button></a></li>
+                </ul>
+                <div class="overlay"></div>
+            </ul>
+        </div>
+    </div>
+    <!-- header done -->
+
+    <div class="bora__header">
+        <div class="bora__container grid wide">
+            <h1 class="bora__header--content">Jamaica</h1>
+        </div>
+    </div>
+
+    <div class="bora__slider grid wide">
+         <div class="bora__image l-6 m-12 c-12">
+            <div class="bora__icon">
+                <i class="fas fa-angle-left"></i>
+                <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="bora__image--border">
+                <img  class="l-12 bora__slider--image" src="image/shop-6.jpg" alt="">
+                <img  class="l-12 bora__slider--image" src="image/shop-3-300x300.jpg" alt="">
+                <img  class="l-12 bora__slider--image" src="image/shop-5.jpg" alt="">
+                <img  class="l-12 bora__slider--image" src="image/shop-8-300x300.jpg" alt="">
+                <img  class="l-12 bora__slider--image" src="image/shop-6.jpg" alt="">
+            </div>
+        </div> 
+        <div class="bora__image--content l-6 m-12 c-12">
+           <h1>Jamaica</h1>
+           <div class="bora__star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+           </div>
+           <div class="bora__price">
+               <h1>$1,000.00 - $2,500.00</h1>
+           </div>
+
+           <div class="bora__paraghaph">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et.</p>
+           </div>
+
+           <div class="bora__paraghaph">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et.</p>
+            </div>
+
+            <div class="bora__people">
+                <p>People</p>
+                <select class="bora__people--select">
+                    <option class="bora__people--option" value="0">Choose an option</option>
+                    <option class="bora__people--option" value="1">1 person</option>
+                    <option class="bora__people--option" value="2">2 person</option>
+                    <option class="bora__people--option" value="3">3 person</option>
+                    <option class="bora__people--option" value="4">4 person</option>
+                    <option class="bora__people--option" value="5">5 person</option>
+                    <option class="bora__people--option" value="6">6 person</option>
+                </select>
+
+                <div>
+                    <button class="bora__people--btn">Clear</button>
+                </div>
+
+            </div>
+          <div class="bora__price--border">
+            <div class="bora__people--price">$ <span id="price"></span></div>
+            <div>
+                <button class="price__btn price__btn--none ">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="bora__category">
+              <p>SKU: <span id="category" style="color:#a3a3a3">N/A</span></p>
+              <p>Category: <span style="color:#a3a3a3">Travel</span></p>
+              <p>Tag: <span style="color:#a3a3a3">Promotions</span></p>
+            </div>
+
+        </div>
+
+
+        <div class="bora__description l-6 ">
+            <div class="bora__description--container bora__description--content-one--block">
+                <h3>Description</h3>
+                <div class="bora__description--border bora__border--block"></div>
+            </div>
+
+            <div class="bora__description--container">
+                <h3>Additional information</h3>
+                <div class="bora__description--border"></div>
+            </div>
+
+            <div class="bora__description--container">
+                <h3>Reviews (1)</h3>
+                <div class="bora__description--border"></div>
+            </div>
+
+        </div>
+        <div class="bora__description--content">
+            <div style="margin-top: 10px" class="bora__description--content-one  bora__description--content-one--block">
+                <h4>Description</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.</p>
+            </div>
+        </div>
+
+        <div class="bora__description--content grid wide">
+            <div class="bora__description--content-one l-6">
+                <h4>Additional information</h4>
+                <div class="additional__content">
+                    <p>People</p>
+                    <span style="color:#a3a3a3"><i>1 Person, 2 People, 3 People, 4 People, 5 People</i></span>
+                </div>
+                <div class="additional__content">
+                    <p>Included</p>
+                    <span style="color:#a3a3a3"><i>	
+                        Drinks, Breakfast, Excursions</i></span>
+                </div>
+                <div class="additional__content">
+                    <p>Availability</p>
+                    <span style="color:#a3a3a3"><i>	
+                        All Season</i></span>
+                </div>
+                <div class="additional__content">
+                    <p>Guide Languages</p>
+                    <span style="color:#a3a3a3"><i>English, Italian, French, German, Spanish</i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bora__description--content grid wide">
+            <div class="bora__description--content-one">
+                <h4>Review for Bora Bora</h4>
+                    <div class="review__container">
+                        <img class="review__image" src="image/imageReview.jpeg" alt="">
+                        <div>
+                            <div class="review__content" >
+                                <p>Rebecca Stone – May 4, 2018</p>
+                                <div class="review__star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p style="display: block;margin-left: 20px;">This is an amazing tour and i recommend this purchase to all family with kids. Thanks again for the excellent tour guide that allow us to visit the country in best way possible. Thanks !</p>
+                        </div>
+                    </div>
+                    <div class="add__review">
+                        <p>Add a review
+                            <br>
+                            Your email address will not be published. Required fields are marked *</p>
+                    </div>
+                    
+                    <form action="" style="margin-top: 50px; color:var(--color-header)">
+                       <div>
+                            <label for="">Your review*</label>
+                            <textarea style="width:100%;border: none; outline:none; color:var(--color-header)" name="" id="" cols="30" rows="8"></textarea>
+                       </div>
+                       <div class="review__input">
+                           <label for="">Name*</label>
+                           <input name="name" type="text">
+                           <span class="review__input-message"></span>
+                       </div>
+
+                       <div class="review__input">
+                            <label for="">Email*</label>
+                            <input id="email" type="email" name="email" type="text">
+                            <span class="review__input-message-email"></span>
+                        </div>
+                        <div style="margin-top:50px;">
+                            <button class="review__submit">Submit</button>
+                        </div>
+                    </form>
+            </div>
+            <div class="product__container grid wide">
+                <h2>Related products SALE!</h2>
+              
+            </div>
+        </div>
+    </div>
+    <!-- footer start -->
+    <div class="footer">
+      
+        <div class="footer__content row grid wide">
+            <div class="footer__content-left l-6 m-12 c-12">
+                <img class="footer__logo" src="image/logo-color-1.png" alt="">
+                <p class="footer__pragahap">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                </p>
+                <div class="footer__logo">
+                    <a href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-vimeo-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__content-right l-6 m-12 c-12">
+                <ul class="footer__list">
+                    <p class="footer__list--paragraph">OUR AGENCY</p>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Services</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Insurancee</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Agency</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Tourism</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Payment</a></li>
+                </ul>
+
+                <ul class="footer__list">
+                    <p class="footer__list--paragraph">PARTNERS</p>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Booking</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>RentalCar</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>HostelWorld</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Trivago</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>TripAdvisor</a></li>
+                </ul>
+
+                <ul class="footer__list">
+                    <p class="footer__list--paragraph">LAST MINUTE</p>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>London</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>California</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Indonesia</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Europe</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__item"><i class="fas fa-angle-right"></i>Oceania</a></li>
+                </ul>
+            </div>
+            <div class="footer__container">
+                <p class="footer__nones">THE BEST WORDPRESS TRAVEL THEME</p>
+                <p id="footer__none">COPYRIGHT NICDARK THEMES 2018</p>
+            </div>
+        </div>
+    
+    </div>
+    <!-- footer done -->
+    <script src="app/app.js"></script>
+    <script src="app/shop.js"></script>
+</body>
+</html>
