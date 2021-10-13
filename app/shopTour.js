@@ -4,7 +4,7 @@ const products = [
     {
         id: 1,
         link: 'bora.html',
-        image: 'image/shop-6.jpg',
+        image: './image/shop-6.jpg',
         name: 'Bora bora',
         price: '$1,000.00 - $2,000.00'
     },
@@ -12,7 +12,7 @@ const products = [
     {
         id: 2,
         link: 'hawaii.html',
-        image: 'image/shop-7-300x300.jpg',
+        image: './image/shop-7-300x300.jpg',
         name: 'Hawaii Coast',
         price: '$8000.00'
     },
@@ -20,7 +20,7 @@ const products = [
     {
         id: 3,
         link: 'jamaica.html',
-        image: 'image/shop-5-300x300.jpg',
+        image: './image/shop-5-300x300.jpg',
         name: 'Jamaica',
         price: '$1,000.00 - $2,500.00'
     },
@@ -28,7 +28,7 @@ const products = [
     {
         id: 4,
         link: 'samiu.html',
-        image: 'image/shop-4-300x300 (1).jpg',
+        image: './image/shop-4-300x300 (1).jpg',
         name: 'Samiu',
         price: '$1,000.00 - $3,500.00'
     },
@@ -36,7 +36,7 @@ const products = [
     {
         id: 5,
         link: 'seychelles.html',
-        image: 'image/shop-2-300x300 (1).jpg',
+        image: './image/shop-2-300x300 (1).jpg',
         name: 'Le Seychelles',
         price: '$5000.00 - $1,000.00'
     },
@@ -44,7 +44,7 @@ const products = [
     {
         id: 6,
         link: 'maldives.html',
-        image: 'image/shop-8-300x300 (1).jpg',
+        image: './image/shop-8-300x300 (1).jpg',
         name: 'Maldives',
         price: '$800.00 - $2,500.00'
     },
@@ -52,7 +52,7 @@ const products = [
     {
         id: 7,
         link: 'phukets.html',
-        image: 'image/shop-4-300x300 (1).jpg',
+        image: './image/shop-4-300x300 (1).jpg',
         name: 'Phuket',
         price: '$8100.00 - $2,500.00'
     },
@@ -60,7 +60,7 @@ const products = [
     {
         id: 8,
         link: 'polynesia.html',
-        image: 'image/shop-3-300x300 (1).jpg',
+        image: './image/shop-3-300x300 (1).jpg',
         name: 'Polynesia',
         price: '$1,600.00'
     },
@@ -68,7 +68,7 @@ const products = [
     {
         id: 1,
         link: 'bora.html',
-        image: 'image/shop-6-300x300.jpg',
+        image: './image/shop-6-300x300.jpg',
         name: 'Bora bora',
         price: '$1,000.00 - $2,000.00'
     },
